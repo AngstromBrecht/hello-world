@@ -29,7 +29,7 @@
         <version>3.0.0</version>
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
-          <outputDirectory>H:/docker/liberty/</outputDirectory>
+          <outputDirectory>/var/jenkins_home/helloworld</outputDirectory>
         </configuration>
       </plugin>
       <plugin>
@@ -45,7 +45,7 @@
           </execution>
         </executions>
         <configuration>     
-          <contextDirectory>H:/docker/liberty</contextDirectory>
+          <contextDirectory>/var/jenkins_home/helloworld</contextDirectory>
           <repository>rliberty-helloworld-2</repository>
           <tag>${project.version}</tag>
         </configuration>
