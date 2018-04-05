@@ -9,6 +9,6 @@
 <title>Hello Andrew</title>
 </head>
 <body>
-<h1>Very Good <% if (new GregorianCalendar().get(Calendar.HOUR_OF_DAY) < 12) {%><br />Morning Andrew<br /><% } else { %><br />Afternoon Andrew from the maven build<br /><% } %></h1>
+<h1>Very Good <% if (new GregorianCalendar().get(Calendar.HOUR_OF_DAY) < 12) {%><br />Morning Andrew<br /><% } else { %><br />Afternoon Volker from the maven build<br /><% } %></h1>
 </body>
 </html>
